@@ -167,3 +167,46 @@ img{
 #about i{
   color: var(--secondary-color);
 }
+
+/* Mobile */
+@media(max-width: 768px){
+  .navbar{
+    flex-direction: column;
+    height: 160px;
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .navbar .logo{
+    font-size: 2.3rem;
+  }
+
+
+  .navbar a{
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+
+  .flex-items{
+    flex-direction: column;
+  }
+
+  .flex-columns .row .column{
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .cases img{
+    margin: 5px;
+  }
+
+  .flex-grid .row .column{
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  #hero .content h1{
+    font-size: 5.5rem;
+    font-weight: bolder;
+  }
+}
