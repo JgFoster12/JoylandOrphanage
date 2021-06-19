@@ -1,0 +1,143 @@
+/* Headings */
+.m-heading{
+  font-size: 2rem;
+  font-weight: bolder;
+  
+}
+.s-heading{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  
+}
+
+.p-body{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  
+}
+
+/*  Flex items */
+
+.flex-items{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  padding: 2rem;
+  /* margin-top: 3rem; */
+}
+
+.flex-items-header{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding-top: 1.7rem;
+}
+
+.flex-items-header h1{
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.flex-items p{
+  font-size: 1rem!important;
+  font-weight: normal!important;
+}
+
+.flex-items i{
+  background: var(--main-color);
+  color: var(--secondary-color)!important;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.flex-items > div{
+  padding: 20px 100px;
+}
+
+/* Flex Columns */
+.flex-columns .row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.flex-columns .column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2{
+  height: 100%;
+}
+
+.flex-columns img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column-2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.flex-columns .column-2 h1{
+  align-self: center;
+}
+
+.flex-columns h2{
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.flex-columns h4 {
+  margin-bottom: 10px;
+}
+
+.flex-columns p {
+  margin-bottom: 20px 0;
+}
+
+/* Backgrounds */
+.bg-primary{
+  background: var(--main-color);
+  color: #333;
+}
+
+.bg-secondary{
+  background: var(--secondary-color);
+  color: #333;
+}
+
+.bg-light{
+  background: #fff;
+  color: #333;
+}
+
+/* Buttons */
+.btn{
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 1px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  color: var(--secondary-color);
+}
