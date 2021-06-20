@@ -1,4 +1,13 @@
 /* Headings */
+h1, h2, h3{
+  font-family: 'Bree Serif', serif;
+}
+
+.l-heading{
+  font-size: 3.3rem;
+  font-weight: bolder;
+  
+}
 .m-heading{
   font-size: 2rem;
   font-weight: bolder;
@@ -115,6 +124,11 @@
   color: #333;
 }
 
+.bg-primary-2{
+  background: var(--main-color);
+  color: var(--secondary-color);
+}
+
 .bg-secondary{
   background: var(--secondary-color);
   color: #333;
@@ -123,6 +137,11 @@
 .bg-light{
   background: #fff;
   color: #333;
+}
+
+.bg-dark{
+  background: #333;
+  color: #f4f4f4;
 }
 
 /* Buttons */

@@ -162,10 +162,22 @@ img{
   
 }
 
+#raising-little-children{
+  height: 100%;
+  padding: 3rem;
+  
+}
+
 
 
 #about i{
   color: var(--secondary-color);
+}
+
+/* Footer */
+#footer{
+  margin: 15px 0 0 0;
+  font-weight: none;
 }
 
 /* Mobile */
